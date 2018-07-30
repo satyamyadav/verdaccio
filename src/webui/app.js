@@ -1,7 +1,7 @@
 import React from 'react';
 import 'element-theme-default';
 import {i18n} from 'element-react';
-import locale from 'element-react/src/locale/lang/en';
+import locale from '../../node_modules/element-react/src/locale/lang/en';
 
 i18n.use(locale);
 

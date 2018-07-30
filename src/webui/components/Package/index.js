@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Tag} from 'element-react';
+import Tag from 'element-react/tag';
 import {Link} from 'react-router-dom';
 
 import {formatDateDistance} from '../../utils/package';

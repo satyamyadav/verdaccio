@@ -1,5 +1,6 @@
 const env = require('../src/config/env');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
+const path = require('path');
 
 module.exports = {
   entry: `${env.SRC_ROOT}/webui/src/index.js`,
@@ -12,6 +13,10 @@ module.exports = {
 
   resolve: {
     extensions: ['.js', '.jsx'],
+    mainFields: ['jsnext:main', 'main'],
+    alias: {
+      'element-react': path.resolve(__dirname, '../node_modules/element-react/dist/npm/es6/src'),
+    },
   },
 
   plugins: [

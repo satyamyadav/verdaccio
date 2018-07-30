@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Loading} from 'element-react';
+import Loading from 'element-react/loading';
 import isEmpty from 'lodash/isEmpty';
 
 import PackageDetail from '../../components/PackageDetail';

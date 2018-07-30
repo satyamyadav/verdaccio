@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Loading, MessageBox} from 'element-react';
+import Loading from 'element-react/loading';
+import MessageBox from 'element-react/message-box';
 import isEmpty from 'lodash/isEmpty';
 import debounce from 'lodash/debounce';
 

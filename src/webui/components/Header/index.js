@@ -1,5 +1,9 @@
 import React from 'react';
-import {Form, Button, Dialog, Input, Alert} from 'element-react';
+import Form from 'element-react/form';
+import Button from 'element-react/button';
+import Dialog from 'element-react/dialog';
+import Input from 'element-react/input';
+import Alert from 'element-react/alert';
 import isString from 'lodash/isString';
 import isNumber from 'lodash/isNumber';
 import capitalize from 'lodash/capitalize';
